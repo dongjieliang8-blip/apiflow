@@ -32,7 +32,7 @@ def _print_banner():
 
 def _print_agent_header(name: str):
     """Print agent stage header."""
-    console.print(f"\n>> Running [{bold cyan}]{name}[/{bold cyan}] agent...", style="bold")
+    console.print(f"\n>> Running [bold cyan]{name}[/bold cyan] agent...", style="bold")
 
 
 def _print_result_summary(label: str, data: dict):
